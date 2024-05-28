@@ -2,10 +2,12 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from .models import Course 
+
+
 def home(request):
     return render(request, 'home.html')
 
-def list(request):
+def c_list(request):
     courses = Course.objects.all()  # Assuming you have a Course model
     return render(request, 'list.html', {'courses': courses})
 

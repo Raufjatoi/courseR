@@ -19,7 +19,6 @@ from django.urls import path , include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('courses/', include('courseR.urls')),
     path('', include('courseR.urls')),  # Add a URL pattern for the empty path
 ]
 
