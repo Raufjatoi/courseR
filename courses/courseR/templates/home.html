@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="jumbotron text-center">
+    <h1>Welcome to CourseR</h1>
+    <p>Your gateway to learning and knowledge</p>
+    <a href="{% url 'list' %}" class="btn btn-primary btn-lg">Browse Courses</a>
+</div>
+{% endblock %}
