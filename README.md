@@ -1,6 +1,6 @@
 # courseR
 
-Welcome to the courseR repository! This project is a dynamic web application built using Django. Below you will find information about the project's distinctiveness and complexity, the contents of each file, how to run the application, and additional notes for the staff.
+Welcome to the courseR repository! This project the final project for CS50web and is a dynamic web application built using Django. Below you will find information about the project's distinctiveness and complexity, the contents of each file, how to run the application, and additional notes for the staff.
 
 ## Distinctiveness and Complexity
 
