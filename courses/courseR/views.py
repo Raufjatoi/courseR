@@ -13,7 +13,7 @@ def c_list(request):
 
 def detail(request, pk):
     course = Course.objects.get(pk=pk)
-    return render(request, 'detail.html', {'course': course})
+    return render(request, 'details.html', {'course': course})
 
 def register(request):
     if request.method == 'POST':

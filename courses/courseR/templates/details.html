@@ -2,12 +2,18 @@
 {% block title %}{{ course.title }}{% endblock %}
 
 {% block content %}
-    <div class="course-detail">
-        <h1>{{ course.title }}</h1>
-        <img src="#" class="img-fluid mb-3" alt="Course Image">
-        <p>{{ course.description }}</p>
-        <p>Price: {{ course.price }}</p>
-        <p>Duration: {{ course.duration }}</p>
-        <a href="{% url 'list' %}" class="btn btn-secondary">Back to Courses</a>
-    </div>
+<div class="back-button">
+    <a href="{% url 'list' %}" class="btn btn-secondary">Back to Courses</a>
+</div>
+<div class="course-detail">
+    <h1>{{ course.title }}</h1>
+    <img src="{{ course.image.url }}" class="img-fluid mb-3" alt="Course Image">
+    <p>{{ course.description }}</p>
+    <p>Price: {{ course.price }}</p>
+    <p>Duration: {{ course.duration }}</p>
+    <a href='{{ course.link }}' class="btn btn-success">Visit the course ☺️</a>
+    <P>you can visit the couse by clickin this link ☺️</P>
+    <P>Visit the course here ☺️ {{ course.link }}</P>
+
+</div>
 {% endblock %}

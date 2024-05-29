@@ -1,15 +1,12 @@
 from pathlib import Path
 
-# Define BASE_DIR to point to the base directory of your project
-BASE_DIR = Path(__file__).resolve().parent.parent
+import os
 
-# Other settings...
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# Media settings
 MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-# Other settings...
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent

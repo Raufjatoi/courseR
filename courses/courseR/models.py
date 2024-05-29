@@ -31,6 +31,6 @@ class Course(models.Model):
     price = models.TextField()
     duration = models.TextField()
     image = models.ImageField(upload_to='course_images/', blank=True, null=True)
-
+    link = models.URLField(default='https://www.edx.org/?utm_source=google&utm_campaign=20875889732&utm_medium=cpc&utm_term=edx&hsa_acc=7245054034&hsa_cam=18736834479&hsa_grp=156544591323&hsa_ad=685047831561&hsa_src=g&hsa_tgt=kwd-89882436&hsa_kw=edx&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwgdayBhBQEiwAXhMxti3XfHTwk2dUXoYUukSnDJS7BephzuxrDTuLUR-tai4GGEeZVr9D3RoCmakQAvD_BwE')
     def __str__(self):
         return self.title
