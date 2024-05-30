@@ -1,6 +1,12 @@
 # courseR
 
-Welcome to the courseR repository! This project is the final project for CS50web and is a dynamic web application built using Django. Below you will find information about the project's distinctiveness and complexity, the contents of each file, how to run the application, and additional notes for the staff.
+Welcome to the courseR repository! This project is the final project for CS50web and is a dynamic web application built using Django. Below you will find information about the project's distinctiveness and complexity, the contents of each file, how to run the application, and additional notes for the staff.   
+
+  # vid demo
+[![Watch the video](https://github.com/Raufjatoi/courseR/blob/main/Screenshot%202024-05-30%20115218.png)](https://youtu.be/tnAO7Iutefs?si=iBM767odHPa3UOWR) click it 🙂       
+
+#medium article 🥸  
+[![medium article](https://github.com/Raufjatoi/courseR/blob/main/courseR.png)](https://medium.com/@raufpokemon00/courser-my-final-project-for-cs50web-744078c7ea41) same 🙂        
 
 ## Distinctiveness and Complexity
 
